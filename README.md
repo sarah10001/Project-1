@@ -7,6 +7,28 @@ Sometimes there is a thin line between movies that we are unable to distinguish 
 In such instances, we find that we can have romance/comedy or comedy/drama or even action/comedy. 
 
 ## BUSINESS UNDERSTANDING
+Stakeholder: Microsoft
+### Objectives
+1. To find out which movie genres rank highest in the box office
+2. To identify movie genres that rank highest in movie ratings
+3. To find out most popular movie genres
 
-This project aims at exploring the best movies in the industry based on their performance. 
+## Data understanding 
+### Data source
+The data used in this project has been derived from movie sites:
+  1. Box Office
+  2. IMDBLinks
+  3. Rotten Tomatoes
+  4. TheMovieDB
+  5. The Numbers
+This project focuses on specific columns contained in the following datasets:
+  1. bom.movie_gross.csv
+  2. movie_basics
+  3. movie_ratings
+  4. tmdb.movies.csv
+
+## Data description
+###Table 1: bom.movie_gross
+This dataset provided information on box office which is the sum of domestic_gross and foreign_gross. 
+In other words, the total earnings from the movie genres both in the country of production and outside its borders.
 
