@@ -21,6 +21,7 @@ The data used in this project has been derived from movie sites:
   3. Rotten Tomatoes
   4. TheMovieDB
   5. The Numbers
+     
 This project focuses on specific columns contained in the following datasets:
   1. bom.movie_gross.csv
   2. movie_basics
