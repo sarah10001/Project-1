@@ -35,7 +35,7 @@ In other words, the box office is the total earnings from the movie genres in th
 #### Table 2: movie_basics
 The dataset provided information on movie genres
 #### Table 3: movie_ratings
-
+The dataset provided information on average rating.
 
 ### Data analysis
 
