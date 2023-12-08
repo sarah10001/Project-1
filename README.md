@@ -7,7 +7,7 @@ Sometimes there is a thin line between movies that we are unable to distinguish 
 In such instances, we find that we can have romance/comedy or comedy/drama or even action/comedy. 
 
 ## BUSINESS UNDERSTANDING
-Stakeholder: Microsoft
+Client: Microsoft
 ### Objectives
 1. To find out which movie genres rank highest in the box office
 2. To identify movie genres that rank highest in movie ratings
