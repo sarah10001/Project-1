@@ -38,6 +38,6 @@ The dataset provided information on movie genres
 The dataset provided information on average rating.
 
 ### Data analysis
-
-
-
+#### Table 1: bom.movie_gross
+Missing values in the domestic_gross and foreign_gross columns were replaced by their respective median values.
+This is because the median value is less sensitive to outliers unlike the mean. The median also helps maintain central tendency of the data.
