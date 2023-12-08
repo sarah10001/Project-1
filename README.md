@@ -35,9 +35,15 @@ In other words, the box office is the total earnings from the movie genres in th
 #### Table 2: movie_basics
 The dataset provided information on movie genres
 #### Table 3: movie_ratings
-The dataset provided information on average rating.
+The dataset provided information on average rating of movie genres.
 
 ### Data analysis
 #### Table 1: bom.movie_gross
 Missing values in the domestic_gross and foreign_gross columns were replaced by their respective median values.
 This is because the median value is less sensitive to outliers unlike the mean. The median also helps maintain central tendency of the data.
+Domestic_gross and foreign_gross columns were added to generate a new column 'box_office'.
+The box office is the total earnings from a genre in the domestic and foreign market.
+The box office was then plotted against the genres to give a clear visual on their relationship.
+#### Table 2: movie_basics
+
+
