@@ -47,6 +47,7 @@ The box office is the total earnings from a genre in the domestic and foreign ma
 I replaced genre_ids with their actual genre names using data from 'https://www.themoviedb.org/talk/5daf6eb0ae36680011d7e6ee'.
 This was to make interpretation easier: that is knowing which genre got which rating.
 The replacement data was as follows:
+
         MOVIE
         Action          28
         Adventure       12
