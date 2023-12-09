@@ -1,4 +1,5 @@
 [jupyter notebook file](https://github.com/sarah10001/Project-1/blob/main/Project-1.ipynb)
+[Canvas slides in pdf](https://github.com/sarah10001/Project-1/blob/main/presentation.pdf)
 # MOVIE INDUSTRY EXPLORATION
 
 Venturing into movie production can be a lucrative and glamorous business, and yet a highly risky endeavor.
