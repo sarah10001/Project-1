@@ -68,12 +68,15 @@ The replacement data was as follows:
         Thriller        53
         War             10752
         Western         37
+Since the genre_ids were comma-separated, I replaced each id on its own instead of as a group.
 The box office was then plotted against the genres to give a clear visual of their relationship.
 #### Table 2: movie_basics
 I checked for missing values in the genres column  and found 5408 counts.
 I replaced the missing values with the mode. The mode shows the most repeating genre and therefore was a reasonable replacement.
-Next, I fetched top ten genres by grouping them by order of occurrence from highest to lowest.
+Next, I fetched the top ten genres by grouping them by order of occurrence from highest to lowest.
 Then I plotted the genres against their corresponding frequency of occurrence.
 #### Table 3: movie_ratings
-I previewed data in the movie_ratings table. Then i joined movie_basics and movie_ratings on common column genre_ids.
+I previewed data in the movie rating table. I then selected the genre and weighted_average_rating columns. 
+I calculated weighted_average_rating as (SUM(averagerating * movie_count) / SUM(movie_count)).
+Then I joined movie_basics and movie_ratings based on the common column 'movie_id'.
 
