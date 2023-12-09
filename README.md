@@ -34,9 +34,9 @@ This project focuses on specific columns (genre_ids, box_office, rating) contain
 This dataset provided information on box office which is the sum of domestic_gross and foreign_gross. 
 In other words, the box office is the total earnings from the movie genres in the country of production and outside its borders.
 #### Table 2: movie_basics
-The dataset provided information on movie genres
+The dataset provided information on movie genres. This data will be essential to show top genres in terms of frequency.
 #### Table 3: movie_ratings
-The dataset provided information on average ratings of movie genres.
+The dataset provided information on average ratings of movie genres. The data is essential in showing top genres according to their ratings.
 
 ## Data analysis
 #### Table 1: bom.movie_gross
