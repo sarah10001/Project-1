@@ -29,7 +29,7 @@ This project focuses on specific columns (genre_ids, box_office, rating) contain
   3. movie_ratings
   4. tmdb.movies.csv
 
-## Data understanding and description
+### Data description
 #### Table 1: bom.movie_gross
 This dataset provided information on box office which is the sum of domestic_gross and foreign_gross. 
 In other words, the box office is the total earnings from the movie genres in the country of production and outside its borders.
