@@ -119,6 +119,12 @@ Looking at all the results from the three graphs, I deduced three genres that ar
 Comedy appeared in all the graphs making it the best genre in terms of rating, frequency,
 and box office followed by the drama genre.
 Documentary appeared to be a safe choice owing to having the highest frequency.
+Action, adventure, sci-fi had the highest returns owing to being the lead in the box office.
+
+In conclusion:
+1. Comedy and drama are the safest genres to invest in
+2. Action adventure sci-fi has the highest returns
+3. Documentary has a high rating making it a great choice as well
      
 
 
