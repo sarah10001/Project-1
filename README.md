@@ -94,24 +94,27 @@ This was important in making available the genres column, which was then plotted
 
 
 # Conclusions
-Results from this graph show the top 5 genre grouping in box_office as:
+Results from table 1 show the top 5 genre grouping in box_office as:
   1. Action, adventure, sci-fi
   2. comedy
   3. drama
   4. action, adventure, fantasy
   5. action, adventure, fantasy, sci-fi.
-This graph shows the leading genres in terms of frequency are:
+
+The graph from table 2 shows the leading genres in terms of frequency are:
   1. documentary
   2. drama
   3. comedy
   4. horror
   5. comedy, drama
-The graph shows leading genres by rating are:
+
+The graph generated from table 3 shows leading genres by rating are:
   1. Comedy, documentary, fantasy
   2. documentary, family, musical
   3. history, sport
   4. game-show
   5. music, mystery
+
 Looking at all the results from the three graphs, I deduced three genres that are doing very well.
 Comedy appeared in all the graphs making it the best genre in terms of rating, frequency,
 and box office followed by the drama genre.
