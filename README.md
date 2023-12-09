@@ -1,10 +1,10 @@
 # MOVIE INDUSTRY EXPLORATION
 
-Venturing into movie production can be a lucrative and glamorous business, and yet a highly risky endevor.
+Venturing into movie production can be a lucrative and glamorous business, and yet a highly risky endeavor.
 It is therefore important to choose moves into the movie industry wisely and with precaution.
-The movie genres range from drama, comedy, action, adventure, horror, sciFi, and many more. 
+The movie genres range from drama, comedy, action, adventure, horror, sci-fi, and many more. 
 Sometimes there is a thin line between movies that we are unable to distinguish one genre from the other. 
-In such instances, we find that we can have romance/comedy or comedy/drama or even action/comedy. 
+In such instances, we find that we can have romance/comedy or comedy/drama, or even action/comedy. 
 
 ## BUSINESS UNDERSTANDING
 Client: Microsoft
@@ -28,7 +28,7 @@ This project focuses on specific columns (genre_ids, box_office, rating) contain
   3. movie_ratings
   4. tmdb.movies.csv
 
-### Data description
+## Data understanding and description
 #### Table 1: bom.movie_gross
 This dataset provided information on box office which is the sum of domestic_gross and foreign_gross. 
 In other words, the box office is the total earnings from the movie genres in the country of production and outside its borders.
@@ -37,7 +37,7 @@ The dataset provided information on movie genres
 #### Table 3: movie_ratings
 The dataset provided information on average ratings of movie genres.
 
-### Data analysis
+## Data analysis
 #### Table 1: bom.movie_gross
 Missing values were found in the domestic_gross and foreign_gross columns.
 Missing values in the domestic_gross and foreign_gross columns were replaced by their respective median values.
@@ -79,4 +79,11 @@ Then I plotted the genres against their corresponding frequency of occurrence.
 I previewed data in the movie rating table. I then selected the genre and weighted_average_rating columns. 
 I calculated weighted_average_rating as (SUM(averagerating * movie_count) / SUM(movie_count)).
 Then I joined movie_basics and movie_ratings based on the common column 'movie_id'.
+This was important in making available the genres column, which was then plotted against the weighted_average_rating column.
+
+## Visualization
+#### Table 1: bom.movie_gross
+
+![image](https://github.com/sarah10001/Project-1/assets/151674519/4c43eefe-da96-462c-bb03-b5c74c82bc73)
+
 
